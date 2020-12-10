@@ -1,5 +1,7 @@
 package task4_5;
 
+import java.util.*;
+
 class Array<T> {
     private T[] array;
 
