@@ -6,12 +6,7 @@ import java.util.function.Consumer;
 public class App {
     static Consumer<double[]> cons = array -> {
         for (int i = 0; i < array.length; i++) {
-//            array[i] *= (array[i] > 2) ? 0.8 : 0.9;
-            if (i > 2) {
-                array[i] *= 0.8;
-            } else {
-                array[i] *= 0.9;
-            }
+            array[i] *= (array[i] > 2) ? 0.8 : 0.9;
         }
     };
 
