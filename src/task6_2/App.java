@@ -16,10 +16,8 @@ public class App {
         return result;
     }
 
-
     public static void main(String[] args) {
         System.out.println(Arrays.toString(App.getChanged(new double[]{1, 2, 3, -1, -5, 0}, App.cons)));
         System.out.println(Arrays.toString(App.getChanged(new double[]{1, 2.02, 3, -1, -5, 0, 7, 8, 25.88}, App.cons)));
-
     }
 }
