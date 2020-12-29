@@ -35,4 +35,13 @@ class Util {
             System.out.printf("Class %s was not found", className);
         }
     }
+
+    public static void main(String[] args) {
+        review("task9_2.Test");
+    }
 }
+
+@Review(reviewer = "Tester", date = "2020-14-23")
+class Test {
+}
+
